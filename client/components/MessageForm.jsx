@@ -1,4 +1,4 @@
-import { useDiscordContext } from '../context/context'
+import { useDiscordContext } from '../context/DiscordContext'
 import styles from '../styles/messageForm.module.css'
 import plusFilled from '../assets/icons/plus-filled.svg'
 import sticker from '../assets/icons/sticker.svg'

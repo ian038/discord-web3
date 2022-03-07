@@ -8,11 +8,11 @@ import pin from '../assets/icons/pin.svg'
 import at from '../assets/icons/at.svg'
 import styles from '../styles/chatHeader.module.css'
 import ethLogo from '../assets/eth.png'
-import { useDiscordContext } from '../context/context'
+import { useDiscordContext } from '../context/DiscordContext'
 
 const ChatHeader = () => {
   const { roomName, currentAccount, connectWallet } = useDiscordContext()
-  
+
   return (
     <div className={styles.chatHeader}>
       <div className={styles.roomNameContainer}>

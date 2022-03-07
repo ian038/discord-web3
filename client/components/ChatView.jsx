@@ -1,7 +1,7 @@
 import styles from '../styles/chatView.module.css'
 import ChatHeader from './ChatHeader'
 import MessageForm from './MessageForm'
-import { useDiscordContext } from '../context/context'
+import { useDiscordContext } from '../context/DiscordContext'
 import MessageCard from './MessageCard'
 
 const ChatView = () => {
